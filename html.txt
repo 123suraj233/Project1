@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Our Pricing Plans</h1>
+        <p>Choose the plan that's right for you.</p>
+    </header>
+    <main>
+        <div class="toggle-container">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="toggle-pricing">
+                <span class="slider round"></span>
+            </label>
+            <span>Yearly</span>
+        </div>
+        <div class="pricing-table">
+            <div class="plan">
+                <h2>Basic</h2>
+                <p class="price" data-monthly="10" data-yearly="100">$10 / month</p>
+                <ul>
+                    <li>10 GB Storage</li>
+                    <li>100 Emails</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan">
+                <h2>Pro</h2>
+                <p class="price" data-monthly="20" data-yearly="200">$20 / month</p>
+                <ul>
+                    <li>50 GB Storage</li>
+                    <li>500 Emails</li>
+                    <li>Priority Support</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan">
+                <h2>Enterprise</h2>
+                <p class="price" data-monthly="30" data-yearly="300">$30 / month</p>
+                <ul>
+                    <li>100 GB Storage</li>
+                    <li>Unlimited Emails</li>
+                    <li>Dedicated Support</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
